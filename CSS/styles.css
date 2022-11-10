@@ -1,0 +1,387 @@
+/*inicio do header*/
+body{
+    width: 400vw;
+    height: 400wh;
+}
+
+.cor{
+    background-color: black;
+}
+.topo{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    position:fixed;
+    margin-botton:200px;
+    
+}
+.cabecalho > h1{
+    color: green;
+    font-size: 40px;
+}
+.titulo{
+    padding-top: 4px;
+}
+.header-navegacao > a{
+    color: #075012;    
+    padding: 10px;
+    font-size:30px;
+}
+.header-navegacao >a:hover{
+  color:purple;
+}
+/*fim do header*/
+/*inicio do main*/
+h1{
+    color:white;
+}
+.conceito{
+    background-color:black ;
+    width: 900px;
+    height: 300px;
+    font-size:40px;
+    padding-top: 40px;
+    margin-top:40px;
+}
+.sobre{
+    color: white;
+}
+.animes{
+    background-color: black;
+    width: 2000px;
+    height: 1000px;
+    padding: 30px;
+    margin:20px;
+}
+.imagem-anime > li > img{
+    width: 200px ;
+    height: 200px;
+}
+.filmes{
+    background-color:black ;
+    width: 2000px;
+    height: 2000px;
+    padding:30px;
+    margin: 20px;
+    
+}
+.imagem-filme > li > img{
+    width: 200px;
+    height: 200px;
+}
+.series{
+    background-color: black;
+    width: 2000px;
+    height: 2000px;
+    padding:30px;
+    margin: 20px;
+}
+.imagem-series > li > img{
+    width: 200px;
+    height: 200px;
+}
+.livros{
+    background-color: black;
+    width: 2000px;
+    height: 2000px;
+    padding:30px;
+    margin: 20px;
+}
+.imagem-livros > li > img{
+    width: 200px;
+    height: 200px;
+}
+
+.games{
+    background-color: black;
+    width: 800px;
+    height: 800px;
+    padding:30px;
+    margin: 20px;
+}
+.imagem-games > li > img{
+    width: 200px;
+    height: 200px;
+}
+.filosofia{
+    background-color: #black;
+    width: 2000px;
+    height: 2000px;
+    padding: 50px;
+    margin:20px;
+}
+.imagem-filosofia > li > img{
+    width: 200px;
+    height: 200px;
+}
+h2{
+    color:cyan;
+}
+
+.contatos > h1{
+    color:cyan;
+    font-size:60px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.rodape{
+    background-color:#224c13 ;
+    width: 100℅;
+    height: 500px;
+    margin: 20px;
+    
+}
+.rodape > div > p{
+    display:inline-block;
+    margin-right:30px;
+}
+.contatos > botton > a{
+    background-color:black;  
+    color:white;
+    padding:2px;
+    border:2px solid white;
+    font-size:40px;
+    margin:30px;
+    display:flex;
+    display:inline-block;
+    justify-content:space-around;
+    align-items:center;
+}
+.contatos > botton > a:hover{
+    background-color: purple;
+}
+/*fim do main*/
+/*flexbox do site e comportamento de blocos e linhas*/
+
+.animes{
+    display:flex;
+    justify-content:flex-start;
+    display:inline-block;
+}
+.animes > h1{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content:center; 
+    padding-left:60px;
+    font-size:60px;
+    color:indigo;
+}
+.animes > ul > li {
+    width: 500px;
+    height: 400px;
+    padding:20px;
+    background-color: darkgreen ;
+    border:2px solid white;
+    display:flex;
+    display:inline-block;
+    margin:100px;
+    justify-content:space-around;
+    align-items:center;
+}
+.animes > ul > li > h2{
+    display:flex;
+    /*flex-direction:row;*/
+    justify-content:center;
+    align-items: center;
+    margin-right:70px;
+    font-size: 30px;
+}
+.animes > ul > li > img{
+    display:flex;
+    /*flex-direction:row;*/
+    justify-content:center;
+    align-items: center;
+    margin-left:90px;
+}
+.animes > ul > li > p{
+  color:black;
+}
+
+
+.filmes{
+    display:flex;
+    justify-content:flex-start;
+    display:inline-block;
+}
+.filmes > h1{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content:center; 
+    padding-left:60px;
+    font-size:60px;
+    color:indigo;
+    
+}
+.filmes > ul > li {
+    width: 800px;
+    height: 800px;
+    padding:40px;
+    background-color: darkgreen ;
+    border: 2px solid white;
+    display:inline-block;
+    margin:100px;
+    justify-content:space-around;
+    align-items:center;
+}
+.filmes > ul > li > h2{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-right:140px;
+    font-size: 30px;
+}
+.filmes > ul > li > img{
+    display:flex;
+    /*flex-direction:row;*/
+    align-items: center;
+    justify-content:center;
+    margin-left:160px;
+}
+.filmes > ul > li > p{
+    font-size:40px;
+}
+
+.series{
+    display:flex;
+    justify-content:flex-start;
+    display:inline-block;
+}
+.series > h1{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:center; 
+    padding-left:60px;
+    font-size:60px;
+    color:indigo;
+}
+.series > ul > li {
+    width: 500px;
+    height: 400px;
+    padding:40px;
+    background-color: darkgreen ;
+    border :2px solid white;
+    display:flex;
+    display:inline-block;
+    margin:100px;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.series > ul > li > h2{
+    display:flex;
+    /*flex-direction:row;*/
+    align-items: center;
+    justify-content:center;
+    margin-right:70px;
+    font-size: 30px;
+}
+.series > ul > li > img{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-left:90px;
+}
+.livros{
+    display:flex;
+    justify-content:flex-start;
+    display:inline-block;
+}
+.livros > h1{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content:center; 
+    padding-left:60px;
+    font-size:60px;
+    color:indigo;
+}
+
+.livros > ul > li {
+     width: 800px;
+     height: 800px;
+     padding:50px;
+     background-color: darkgreen ;
+     border: 2px solid white;
+     margin:100px;
+     display:flex;
+     display:inline-block;
+     justify-content:space-around;
+     align-items:center;
+}
+.livros > ul > li > h2{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-right: 140px;
+    font-size: 40px;
+}
+.livros > ul > li > img{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-left: 160px;
+}
+.livros > ul > li > p {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    font-size:40px;
+}
+.games > h1{
+    display:flex;
+    flex-direction:row;
+    justify-content:center; 
+    padding-left:60px;
+    font-size:60px;
+    color:indigo;
+}
+
+.games > ul > li {
+     width: 400px;
+     height: 500px;
+     padding:40px;
+     background-color: darkgreen;
+     border: 2px solid white;
+}
+.filosofia{
+    display:flex;
+    justify-content:flex-start;
+    display:inline-block;
+}
+.filosofia > h1{
+    display:flex;
+    flex-direction:row;
+    justify-content:center; 
+    margin-right:60px;
+    font-size:60px;
+    color:indigo;
+}
+.filosofia > ul > li{
+     width: 800px;
+     height: 800px;
+     padding:60px;
+     background-color: darkgreen ;
+     border:2px solid white;
+     display:flex;
+     display:inline-block;
+     margin:100px;
+     justify-content:space-around;
+     align-items:center;
+}
+.filosofia > ul > li > h2{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-right: 140px;
+}
+
+.filosofia > ul > li > img{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-left: 160px;
+} ok
